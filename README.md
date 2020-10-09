@@ -1,7 +1,6 @@
-<h1 align="center">
+<h1>
   <img alt="Gatsby" src="resources/shopify+gatsby.png" height="60px" />
-  <br/>
-  HaveCakeEatCake
+  Have Cake, Eat Cake
 </h1>
 <hr>
-Welcome to to the GitHub repository for "HaveCakeEatCake" - a demo shop created using Gatsby, Netlify and DatoCMS.
+Welcome to to the GitHub repository for "Have Cake, Eat Cake" - a demo shop created using Gatsby, Netlify and DatoCMS.
