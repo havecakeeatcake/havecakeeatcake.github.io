@@ -3,7 +3,8 @@ before_script:
   - npm install -g gatsby
 node_js:
   - "10"
-os: windows
+os: linux
+dist: trusty
 deploy:
   provider: script
   script: npm install && npm run deploy
