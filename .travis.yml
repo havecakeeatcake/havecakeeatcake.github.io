@@ -2,7 +2,6 @@
 language: node_js
 node_js:
   - '12'
-strategy: git
 dist: trusty
 os: linux
 cache:
@@ -15,6 +14,7 @@ script:
 
 # Here is the magic part
 deploy:
+  strategy: git
   # Use Github pages deploy process
   provider: pages
   # Keep builded pages
