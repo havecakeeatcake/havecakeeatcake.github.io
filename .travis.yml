@@ -6,8 +6,11 @@ node_js:
 os: linux
 dist: trusty
 deploy:
-  provider: script
-  script: npm install && npm run deploy
+  provider: pages
   cleanup: true
+  local_dir: public
+  github-token: $GITHUB_TOKEN
+  keep-history: true
+  target_branch: master
   on:
     branch: master
