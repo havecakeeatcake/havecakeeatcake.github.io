@@ -1,16 +1,15 @@
 language: node_js
-before_script:
-  - npm install -g gatsby
 node_js:
   - "10"
 os: linux
 dist: trusty
 deploy:
   provider: pages
+  strategy: git
   cleanup: true
   local_dir: public
-  github-token: $GITHUB_TOKEN
-  keep-history: true
+  token: $GITHUB_TOKEN
+  keep_history: true
   target_branch: master
   on:
     branch: master
